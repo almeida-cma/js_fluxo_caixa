@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Saldo Final</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Calculadora de Saldo Final</h2>
+    <label for="folhaPagamento">Gastos com Folha de Pagamento:</label>
+    <input type="number" id="folhaPagamento" placeholder="Digite o valor">
+    <label for="impostos">Gastos com Impostos:</label>
+    <input type="number" id="impostos" placeholder="Digite o valor">
+    <label for="despesasFixas">Gastos com Despesas Fixas:</label>
+    <input type="number" id="despesasFixas" placeholder="Digite o valor">
+    <label for="receitas">Receitas Totais:</label>
+    <input type="number" id="receitas" placeholder="Digite o valor">
+    <button onclick="calcularSaldoFinal()">Calcular Saldo Final</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
